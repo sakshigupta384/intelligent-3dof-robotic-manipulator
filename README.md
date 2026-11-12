@@ -7,9 +7,8 @@ An educational robotics project focused on inverse kinematics, 3D visualization,
 | Name | Role |
 
 | Sakshi | Project Lead & Main Developer – Project Design, Python Programming, Inverse Kinematics, 3D Visualization, Simulation, Testing, Telemetry Dashboard, Report Writing and PPT Preparation |
-| Member 2 Full Name | Research Support – Reference Collection and Technical Research |
-| Member 3 Full Name | Documentation Support – Content Review and Formatting |
-| Member 4 Full Name | Presentation Support – Slide Review and Presentation Assistance |
+| Snehjit Satish Mohite | Research Support – Reference Collection and Technical Research |
+| Mohammed Bilaal Khovt | Presentation Support – Slide Review and Presentation Assistance |
 
 ## Project Guide
 
