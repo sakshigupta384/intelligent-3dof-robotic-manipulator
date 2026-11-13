@@ -31,4 +31,15 @@ The project is divided into five major layers:
 - NumPy
 - Matplotlib
 - Pandas
-- Tinkercad for circuit simulation
+- Tinkercad for circuit simulation 
+## Installation and Setup
+
+### Requirements
+- Python 3.10 or later
+- VS Code
+- Required Python libraries
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
