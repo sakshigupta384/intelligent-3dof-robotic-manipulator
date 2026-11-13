@@ -1,6 +1,15 @@
-﻿streamlit
+﻿# Web dashboard
+streamlit
+
+# Interactive 3D visualization and charts
 plotly
-numpy
 matplotlib
-pyserial
+
+# Numerical computations
+numpy
+
+# Telemetry data handling
 pandas
+
+# Serial communication for future hardware integration
+pyserial
