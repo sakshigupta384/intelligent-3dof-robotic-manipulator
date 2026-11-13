@@ -57,3 +57,18 @@ The following tests were performed on the software prototype:
 ### Position Error Test
 
 A test configuration produced a position error of 0 cm.
+## Project Limitations
+
+- The robotic arm is currently a software and simulation prototype.
+- Telemetry values are simulated, not collected from physical sensors.
+- Adaptive motion planning checks sampled end-effector positions against one spherical obstacle.
+- Complete robot-link collision detection is not implemented.
+- Physical servo control is not integrated with the dashboard.
+
+## Future Scope
+
+- Integrate physical servo motors with a microcontroller.
+- Add real-time sensor-based telemetry.
+- Implement complete robot-link collision detection.
+- Improve adaptive motion planning with multiple obstacles.
+- Explore predictive analytics for robot performance monitoring.
