@@ -72,3 +72,17 @@ A test configuration produced a position error of 0 cm.
 - Implement complete robot-link collision detection.
 - Improve adaptive motion planning with multiple obstacles.
 - Explore predictive analytics for robot performance monitoring.
+## Project File Structure
+
+```text
+3 dof robotic manipulator/
+│
+├── inverse_kinematics.py
+├── robot_3d.py
+├── robot_3d_backup.py
+├── serial_sender.py
+├── serial_test.py
+├── telemetry_dashboard.py
+├── test_inverse_kinematics.py
+├── requirements.txt
+└── README.md
