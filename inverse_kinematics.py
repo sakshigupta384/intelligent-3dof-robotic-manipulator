@@ -22,9 +22,14 @@ def inverse_kinematics(x, y, z, elbow_up=False):
     # Validate input coordinates
     coordinates = (x, y, z)
 
-    if not all(isinstance(value, (int, float)) and math.isfinite(value)
-               for value in coordinates):
+    if not all(
+        isinstance(value, (int, float)) and math.isfinite(value)
+        for value in coordinates
+    ):
         raise ValueError("Target coordinates must be finite numbers.")
+
+    if not isinstance(elbow_up, bool):
+        raise ValueError("elbow_up must be True or False.")
 
     # Base rotation
     base = math.degrees(math.atan2(y, x))
@@ -65,15 +70,14 @@ def inverse_kinematics(x, y, z, elbow_up=False):
     }
 
 
-# Test the inverse kinematics function
+# Run a sample calculation when this file is executed directly
 if __name__ == "__main__":
-
     result = inverse_kinematics(10, 0, 15)
 
     print("\nInverse Kinematics Results")
     print("--------------------------")
 
-    if result:
+    if result is not None:
         for joint, angle in result.items():
             print(f"{joint.capitalize()}: {angle}")
     else:
